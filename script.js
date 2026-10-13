@@ -4,7 +4,7 @@ const makeChange = (c) => {
 	let n = Math.floor((c-(q*25)-(d*10))/5);
 	let p = (c-(q*25)-(d*10))-(n*5);
 
-	return (`{ "q": ${q}, "d": ${d}, "n": ${n}, "p": ${p} }`)
+	return { q: q, d: d, n: n, p: p };
   // your name here
 };
 
